@@ -1,0 +1,15 @@
+D:\Frontend\MISA_training\MISA_WEB2021_11\Api\MISA.Fresher.Web11\MISA.WEB11.Infrastructure\bin\Debug\net6.0\MISA.WEB11.Infrastructure.deps.json
+D:\Frontend\MISA_training\MISA_WEB2021_11\Api\MISA.Fresher.Web11\MISA.WEB11.Infrastructure\bin\Debug\net6.0\MISA.WEB11.Infrastructure.dll
+D:\Frontend\MISA_training\MISA_WEB2021_11\Api\MISA.Fresher.Web11\MISA.WEB11.Infrastructure\bin\Debug\net6.0\ref\MISA.WEB11.Infrastructure.dll
+D:\Frontend\MISA_training\MISA_WEB2021_11\Api\MISA.Fresher.Web11\MISA.WEB11.Infrastructure\bin\Debug\net6.0\MISA.WEB11.Infrastructure.pdb
+D:\Frontend\MISA_training\MISA_WEB2021_11\Api\MISA.Fresher.Web11\MISA.WEB11.Infrastructure\bin\Debug\net6.0\MISA.WEB11.Core.dll
+D:\Frontend\MISA_training\MISA_WEB2021_11\Api\MISA.Fresher.Web11\MISA.WEB11.Infrastructure\bin\Debug\net6.0\MISA.WEB11.Core.pdb
+D:\Frontend\MISA_training\MISA_WEB2021_11\Api\MISA.Fresher.Web11\MISA.WEB11.Infrastructure\obj\Debug\net6.0\MISA.WEB11.Infrastructure.csproj.AssemblyReference.cache
+D:\Frontend\MISA_training\MISA_WEB2021_11\Api\MISA.Fresher.Web11\MISA.WEB11.Infrastructure\obj\Debug\net6.0\MISA.WEB11.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\Frontend\MISA_training\MISA_WEB2021_11\Api\MISA.Fresher.Web11\MISA.WEB11.Infrastructure\obj\Debug\net6.0\MISA.WEB11.Infrastructure.AssemblyInfoInputs.cache
+D:\Frontend\MISA_training\MISA_WEB2021_11\Api\MISA.Fresher.Web11\MISA.WEB11.Infrastructure\obj\Debug\net6.0\MISA.WEB11.Infrastructure.AssemblyInfo.cs
+D:\Frontend\MISA_training\MISA_WEB2021_11\Api\MISA.Fresher.Web11\MISA.WEB11.Infrastructure\obj\Debug\net6.0\MISA.WEB11.Infrastructure.csproj.CoreCompileInputs.cache
+D:\Frontend\MISA_training\MISA_WEB2021_11\Api\MISA.Fresher.Web11\MISA.WEB11.Infrastructure\obj\Debug\net6.0\MISA.WEB11.Infrastructure.csproj.CopyComplete
+D:\Frontend\MISA_training\MISA_WEB2021_11\Api\MISA.Fresher.Web11\MISA.WEB11.Infrastructure\obj\Debug\net6.0\MISA.WEB11.Infrastructure.dll
+D:\Frontend\MISA_training\MISA_WEB2021_11\Api\MISA.Fresher.Web11\MISA.WEB11.Infrastructure\obj\Debug\net6.0\ref\MISA.WEB11.Infrastructure.dll
+D:\Frontend\MISA_training\MISA_WEB2021_11\Api\MISA.Fresher.Web11\MISA.WEB11.Infrastructure\obj\Debug\net6.0\MISA.WEB11.Infrastructure.pdb

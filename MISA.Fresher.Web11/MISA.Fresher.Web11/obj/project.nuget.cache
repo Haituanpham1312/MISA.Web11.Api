@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "/vheBiZwe0RC/N0dNStwAAxa1PCdOhNvBDVuragvxALz4HNez1OfJuyY3F9WgJkziQJbuODAnLmXiNb6I7whDQ==",
+  "dgSpecHash": "Gb4E9Qm0uPOju53hArygxpCE1Gu9lh9b5lnr90+/o97W8uOq0hAJCpAqECs2zLm5p6JQiGiBsKXkZJ30+xEe3w==",
   "success": true,
   "projectFilePath": "D:\\Frontend\\MISA_training\\MISA_WEB2021_11\\Api\\MISA.Fresher.Web11\\MISA.Fresher.Web11\\MISA.Fresher.Web11.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\admin\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\mysqlconnector\\2.1.2\\mysqlconnector.2.1.2.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",

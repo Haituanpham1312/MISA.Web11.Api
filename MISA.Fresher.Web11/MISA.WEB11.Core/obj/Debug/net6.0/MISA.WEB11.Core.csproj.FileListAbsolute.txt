@@ -1,0 +1,12 @@
+D:\Frontend\MISA_training\MISA_WEB2021_11\Api\MISA.Fresher.Web11\MISA.WEB11.Core\bin\Debug\net6.0\MISA.WEB11.Core.deps.json
+D:\Frontend\MISA_training\MISA_WEB2021_11\Api\MISA.Fresher.Web11\MISA.WEB11.Core\bin\Debug\net6.0\MISA.WEB11.Core.dll
+D:\Frontend\MISA_training\MISA_WEB2021_11\Api\MISA.Fresher.Web11\MISA.WEB11.Core\bin\Debug\net6.0\ref\MISA.WEB11.Core.dll
+D:\Frontend\MISA_training\MISA_WEB2021_11\Api\MISA.Fresher.Web11\MISA.WEB11.Core\bin\Debug\net6.0\MISA.WEB11.Core.pdb
+D:\Frontend\MISA_training\MISA_WEB2021_11\Api\MISA.Fresher.Web11\MISA.WEB11.Core\obj\Debug\net6.0\MISA.WEB11.Core.csproj.AssemblyReference.cache
+D:\Frontend\MISA_training\MISA_WEB2021_11\Api\MISA.Fresher.Web11\MISA.WEB11.Core\obj\Debug\net6.0\MISA.WEB11.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Frontend\MISA_training\MISA_WEB2021_11\Api\MISA.Fresher.Web11\MISA.WEB11.Core\obj\Debug\net6.0\MISA.WEB11.Core.AssemblyInfoInputs.cache
+D:\Frontend\MISA_training\MISA_WEB2021_11\Api\MISA.Fresher.Web11\MISA.WEB11.Core\obj\Debug\net6.0\MISA.WEB11.Core.AssemblyInfo.cs
+D:\Frontend\MISA_training\MISA_WEB2021_11\Api\MISA.Fresher.Web11\MISA.WEB11.Core\obj\Debug\net6.0\MISA.WEB11.Core.csproj.CoreCompileInputs.cache
+D:\Frontend\MISA_training\MISA_WEB2021_11\Api\MISA.Fresher.Web11\MISA.WEB11.Core\obj\Debug\net6.0\MISA.WEB11.Core.dll
+D:\Frontend\MISA_training\MISA_WEB2021_11\Api\MISA.Fresher.Web11\MISA.WEB11.Core\obj\Debug\net6.0\ref\MISA.WEB11.Core.dll
+D:\Frontend\MISA_training\MISA_WEB2021_11\Api\MISA.Fresher.Web11\MISA.WEB11.Core\obj\Debug\net6.0\MISA.WEB11.Core.pdb

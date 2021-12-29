@@ -25,3 +25,5 @@ D:\Frontend\MISA_training\MISA_WEB2021_11\Api\MISA.Fresher.Web11\MISA.Fresher.We
 D:\Frontend\MISA_training\MISA_WEB2021_11\Api\MISA.Fresher.Web11\MISA.Fresher.Web11\obj\Debug\net6.0\ref\MISA.Fresher.Web11.dll
 D:\Frontend\MISA_training\MISA_WEB2021_11\Api\MISA.Fresher.Web11\MISA.Fresher.Web11\obj\Debug\net6.0\MISA.Fresher.Web11.pdb
 D:\Frontend\MISA_training\MISA_WEB2021_11\Api\MISA.Fresher.Web11\MISA.Fresher.Web11\obj\Debug\net6.0\MISA.Fresher.Web11.genruntimeconfig.cache
+D:\Frontend\MISA_training\MISA_WEB2021_11\Api\MISA.Fresher.Web11\MISA.Fresher.Web11\bin\Debug\net6.0\Dapper.dll
+D:\Frontend\MISA_training\MISA_WEB2021_11\Api\MISA.Fresher.Web11\MISA.Fresher.Web11\bin\Debug\net6.0\MySqlConnector.dll

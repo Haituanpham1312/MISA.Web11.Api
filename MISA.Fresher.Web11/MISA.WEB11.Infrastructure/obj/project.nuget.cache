@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "JIzL5EP3mQdcIb7vlRMpx6t08btH5bPQwOjVdZSjUIw+pxoVWmBC0OoPjBomGjTdLW0T2FflwqzZw0vCb+Wnsg==",
+  "success": true,
+  "projectFilePath": "D:\\Frontend\\MISA_training\\MISA_WEB2021_11\\Api\\MISA.Fresher.Web11\\MISA.WEB11.Infrastructure\\MISA.WEB11.Infrastructure.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\admin\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\mysqlconnector\\2.1.2\\mysqlconnector.2.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}

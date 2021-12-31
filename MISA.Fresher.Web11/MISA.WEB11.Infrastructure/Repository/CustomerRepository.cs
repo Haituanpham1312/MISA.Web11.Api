@@ -14,7 +14,21 @@ namespace MISA.WEB11.Infrastructure.Repository
     {
         public int Delete(Guid customerId)
         {
-            throw new NotImplementedException();
+            //kết nối với database
+            //1.Khai báo thông tin database:
+            var connectionString = "Server=47.241.69.179;" +
+                 "Port=3306;" +
+                 "Database=MISA.CukCuk_Demo_NVMANH_copy;" +
+                 "User Id=dev;" +
+                 "Password=manhmisa";
+            //2.Khởi tạo kết nối với database(dùng MariaDB)
+            MySqlConnection sqlConnection = new MySqlConnection(connectionString);
+            //3.Thực hiện xóa dữ liệu trong database
+            var sqlCommand = "DELETE FROM Customer WHERE CustomerId = @CustomerId";
+            DynamicParameters parameters = new DynamicParameters();
+            parameters.Add("@CustomerId", customerId);
+            var res = sqlConnection.Execute(sqlCommand, param: parameters);
+            return res != null ? 1 : 0;
         }
 
         public IEnumerable<Customer> GetCustomers()
@@ -49,17 +63,8 @@ namespace MISA.WEB11.Infrastructure.Repository
             //2.Khởi tạo kết nối với database(dùng MariaDB)
             MySqlConnection sqlConnection = new MySqlConnection(connectionString);
             //3.Thực hiện lấy dữ liệu trong database
-            var sqlCommand = "" +
-                "INSERT Customer (" +
-                    "CustomerId," +
-                    "CustomerCode," +
-                    "FullName," +
-                    "PhoneNumber) " +
-                "VALUES(" +
-                    "@CustomerId," +
-                    "@CustomerCode," +
-                    "@FullName," +
-                    "@PhoneNumber); ";
+            var sqlCommand = "INSERT Customer (CustomerId, CustomerCode, FullName, PhoneNumber) " +
+                                 "VALUES (@CustomerId, @CustomerCode, @FullName, @PhoneNumber)";
             DynamicParameters parameters = new DynamicParameters();
             parameters.Add("@CustomerId", customer.CustomerId);
             parameters.Add("@CustomerCode", customer.CustomerCode);
@@ -72,7 +77,25 @@ namespace MISA.WEB11.Infrastructure.Repository
 
         public int Update(Customer customer, Guid customerId)
         {
-            throw new NotImplementedException();
+            //Khai báo thông tin db
+            var connectionString = "Server=47.241.69.179;" +
+                "Port=3306;" +
+                "Database=MISA.CukCuk_Demo_NVMANH_copy;" +
+                "User Id=dev;" +
+                "Password=manhmisa";
+            //Khởi tạo kết nối db
+            MySqlConnection sqlConnection = new MySqlConnection(connectionString);
+
+            //Lấy dữ liệu trong db
+            var sqlCommand = "UPDATE Customer SET CustomerCode=@CustomerCode, FullName=@FullName, PhoneNumber=@PhoneNumber " +
+                             "WHERE CustomerId=@CustomerId";
+            DynamicParameters parameters = new DynamicParameters();
+            parameters.Add("@CustomerId", customerId);
+            parameters.Add("@CustomerCode", customer.CustomerCode);
+            parameters.Add("@FullName", customer.FullName);
+            parameters.Add("@PhoneNumber", customer.PhoneNumber);
+            var res = sqlConnection.Execute(sqlCommand, param: parameters);
+            return res;
         }
 
         public bool CheckCustomercodeDuplicate(string customerCode) 

@@ -18,6 +18,5 @@ namespace MISA.WEB11.Core.Interfaces.Service
         int UpdateService(Customer customer,Guid customerId);
         int DeleteService(Guid customerId);
 
-
     }
 }

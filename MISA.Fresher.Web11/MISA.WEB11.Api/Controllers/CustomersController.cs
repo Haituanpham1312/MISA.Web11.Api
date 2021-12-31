@@ -76,5 +76,63 @@ namespace MISA.WEB11.Api.Controllers
             }
         }
 
+        [HttpPut("{customerId}")]
+        public IActionResult Update(Customer customer, Guid customerId)
+        {
+            try
+            {
+                var res = _customerService.UpdateService(customer, customerId);
+                if (res > 0)
+                {
+                    return StatusCode(201, res);
+                }
+                else
+                {
+                    return StatusCode(200, res);
+                }
+            }
+            catch (MISAValidateException ex)
+            {
+                return StatusCode(400, ex.Data);
+            }
+            catch (Exception ex)
+            {
+                var result = new
+                {
+                    devMsg = ex.Message,
+                    userMsg = "Có lỗi xảy ra, vui lòng liên hệ MISA để được trợ giúp",
+                    data = ""
+                };
+                return StatusCode(500, result);
+            }
+        }
+
+        [HttpDelete("{customerId}")]
+        public IActionResult Delete(Guid customerId)
+        {
+            try
+            {
+                var res = _customerRepository.Delete(customerId);
+                if (res > 0)
+                {
+                    return StatusCode(201, res);
+                }
+                else
+                {
+                    return StatusCode(200, res);
+                }
+            }
+            catch (Exception ex)
+            {
+                var result = new
+                {
+                    devMsg = ex.Message,
+                    userMsg = "Có lỗi xảy ra vui lòng liên hệ Misa để được trợ giúp",
+                    data = ""
+                };
+                return StatusCode(500, result);
+            }
+        }
+
     }
 }
